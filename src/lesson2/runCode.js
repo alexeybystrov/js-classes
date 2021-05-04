@@ -1,4 +1,3 @@
-// BEGIN (write your solution here)
 const defaultCatcher = (err) => { throw err; };
 
 export default (action, catcher = defaultCatcher) => {
@@ -8,4 +7,3 @@ export default (action, catcher = defaultCatcher) => {
     return catcher(err);
   }
 };
-// END
