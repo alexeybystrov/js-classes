@@ -1,7 +1,7 @@
 import path from 'path';
 import SmartFileInfo from '../src/lesson4/SmartFileInfo.js';
 
-const filePath = path.resolve('src/Makefile');
+const filePath = path.resolve('Makefile');
 
 test('GetSize', () => {
   const file = new SmartFileInfo(filePath);
